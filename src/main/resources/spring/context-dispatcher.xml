@@ -9,15 +9,11 @@
 
 	<!--扫描整体程序包-->
 	<context:component-scan base-package="com.lesson.controller"/>
-	<context:component-scan base-package="com.lesson.dao"/>
-	<context:component-scan base-package="com.lesson.model"/>
-	<context:component-scan base-package="com.lesson.service"/>
 
 	<!--视图解析器-->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 	    <property name="prefix" value="/" />
 	    <property name="suffix" value="" />
 	</bean>
-
 
 </beans>
