@@ -10,7 +10,7 @@
 	</head>
 
 	<body>
-		<div>主菜单</div>
+		<div>主菜单 v2</div>
 	</body>
 </html>
 
